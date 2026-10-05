@@ -62,3 +62,13 @@ if go:
 with st.expander("Model performance (from training)"):
     st.image("confusion_matrix.png", caption="Confusion matrix")
     st.image("correlation_heatmap.png", caption="Feature correlation heatmap")
+st.markdown(
+    """
+    <div style="text-align: center; color: #888;
+                font-size: 14px; padding: 30px 0 10px 0;">
+        Developed by<br>
+        <b>Vansh Patel • Vansh Patel • Vishwa Patel</b>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
